@@ -16,7 +16,7 @@ Os usuários podem filtrar os alunos com base em duas categorias principais: sit
 
 É importante ressaltar que este aplicativo atualmente não oferece funcionalidades completas de CRUD (Create, Read, Update, Delete). No entanto, os desenvolvedores têm a liberdade de expandir o aplicativo para incluir essas funcionalidades adicionais. Isso pode ser feito adicionando as operações de criação, atualização e exclusão de registros de alunos no banco de dados, permitindo uma gestão mais completa das informações escolares. (Eu deixo esse desafio com vocês. Faça um FORK desse projeto em mandem ver 😉).
 
-### EXECUTANDO O PROJETO:
+## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
    - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`. Se não estiver familiarizado com o processo de importação, [confira este curso](https://github.com/VILHALVA/CURSO-DE-POSTGRESQL) para orientações detalhadas.
 
