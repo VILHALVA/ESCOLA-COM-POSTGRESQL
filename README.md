@@ -18,10 +18,10 @@ Os usuários podem filtrar os alunos com base em duas categorias principais: sit
 
 ## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`. 
+   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`.
 
 2. **Configuração do PHP:**
-   - Abra o arquivo `index.php` e ajuste as configurações do banco de dados:
+   - Abra o arquivo `./CODIGO/index.php` e ajuste as configurações do banco de dados:
 
      ```php
      $host = "localhost";
@@ -30,9 +30,16 @@ Os usuários podem filtrar os alunos com base em duas categorias principais: sit
      $dbname = "ESCOLA";
      ```
 
-3. **Executando o Aplicativo:**
+3. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.php`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.php](http://localhost/CODIGO/index.php).
+
+4. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080](http://localhost:8080).
 
 4. **Interagir com o Projeto:**
    - Após acessar o projeto pelo navegador, você verá a interface do aplicativo. Você pode selecionar diferentes opções de situação (aprovados, reprovados ou todos) e sexo (masculino, feminino ou todos) e clicar no botão "ANALISAR" para visualizar os dados dos alunos com base nos critérios selecionados.
